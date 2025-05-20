@@ -27,4 +27,4 @@ def root():
     return "Servidor yt-dlp está online."
 
 if __name__ == '__main__':
-    app.run()
+    app.run(host='0.0.0.0', port=10000)
